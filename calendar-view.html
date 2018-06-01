@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>2018 Payroll Dates - Calendar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script defer src="https://pro.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-d84LGg2pm9KhR4mCAs3N29GQ4OYNy+K+FBHX8WhimHpPm86c839++MDABegrZ3gn" crossorigin="anonymous"></script>
+    <!-- Google fonts - Nunito -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet"> 
+    <!-- theme stylesheet-->
+	<link rel="stylesheet" href="css/style.default.css">
+	<!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" id="theme-stylesheet">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+  </head>
+  <body>
+    <div class="container-fluid" style="height: 100vh">
+      <div class="row intro justify-content-center" style="padding: 80px">
+        <div class="col-8"> 
+          <div class="header">
+            <p> <img src="img/logo.png" alt="Logo"></p>
+            <h1>2018 Payroll Dates</h1>
+            <p class="lead">Here you can find a calendar view of the payroll dates for 2018.</p>
+			<p><em>This is an embedded Google Calendar. I am unable to style each item differently in this calendar, resulting in every item being blue. This can be difficult to read. To see the full calendar, click the button below.</em></p>
+			<div class="row justify-content-center" style="margin-bottom: 25px">
+				<div class="col-6 text-center">
+					<a class="btn" id="calendar-view" href="https://calendar.google.com/calendar?cid=cWoxOXJldWdocjFtYXJjOW9udTM0Z2FnZzBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">Styled Calendar</a>
+				</div>
+				<div class="col-6 text-center">
+					<a class="btn" id="back" href="index.html">Back</a>
+				</div>
+			</div>
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+			  <span><strong>Oh snap!</strong> I have yet to add international locations. This will be completed by Monday, 6/4.</span>
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+            
+			<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qj19reughr1marc9onu34gagg0%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+	<svg width="0" height="0">
+		<linearGradient id="lgrad" x1="100%" y1="100%" x2="0%" y2="0%" >
+			<stop offset="0%" style="stop-color:rgb(252,207,49);stop-opacity:1" />
+			<stop offset="100%" style="stop-color:rgb(245,85,85);stop-opacity:1" />
+		</linearGradient>
+	</svg>
+	<a href="#0" class="cd-top js-cd-top">Top</a>
+    <!-- Javascript files -->
+	<!-- Tippy Tooltips -->
+	<script src="https://unpkg.com/tippy.js@2.5.2/dist/tippy.all.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity "sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- NiceScroll -->
+	<script src="js/jquery.nicescroll.js"></script> 
+	<!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	-->
+	<!-- Bootstrap Javascript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Scroll To Top -->
+	<script src="js/scroll-to-top.js"></script>
+	<script>
+		$(document).ready(function() {
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+				// Dont launch niceScroll
+			} else {
+				$(function() {  
+					$("body").niceScroll({
+						cursorcolor: "#2ecc71",
+						cursorwidth: "12px",
+						background: "rgb(221, 221, 221)"
+					});
+				});
+			}
+			
+			tippy(document.querySelectorAll('.icon-shortcut'))
+		});
+	</script>
+  </body>
+</html>
