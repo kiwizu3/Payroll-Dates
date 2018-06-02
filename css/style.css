@@ -232,6 +232,12 @@ p {
 	}
 }
 
+@media only screen and (min-width: 576px) {
+	#cal-large {
+		display: block;
+	}
+}
+
 #calendar-view, #back {
 	display: inline-block;
 	text-align: center;
@@ -265,4 +271,8 @@ p {
 
 #back:hover {
 	background: #333
+}
+
+#cal-large {
+	display: none;
 }
