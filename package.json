@@ -15,5 +15,8 @@
   "homepage": "https://github.com/QLN-SuperCamp/Payroll-Dates#readme",
   "dependencies": {
     "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.0.1"
   }
 }
