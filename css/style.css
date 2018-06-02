@@ -232,9 +232,22 @@ p {
 	}
 }
 
+#cal-large {
+	display: none;
+}
+
+
 @media only screen and (min-width: 576px) {
 	#cal-large {
 		display: block;
+	}
+	
+	#cal-mobile {
+		display: none;
+	}
+	
+	#calendar-view-intro {
+		padding: 80px;
 	}
 }
 
@@ -273,6 +286,3 @@ p {
 	background: #333
 }
 
-#cal-large {
-	display: none;
-}
