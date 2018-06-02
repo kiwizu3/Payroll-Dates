@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "cypress": "^3.0.1"
+  },
+  "scripts": {
+    "start": "http-server app -c-1"
   }
 }
