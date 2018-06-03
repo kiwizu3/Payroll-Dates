@@ -1,0 +1,26 @@
+{
+  "name": "payroll-dates",
+  "description": "Visualization of SuperCamp's 2018 payroll dates (stateside and international)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QLN-SuperCamp/Payroll-Dates.git"
+  },
+  "author": "stavvie34",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QLN-SuperCamp/Payroll-Dates/issues"
+  },
+  "homepage": "https://github.com/QLN-SuperCamp/Payroll-Dates#readme",
+  "dependencies": {
+    "npm": "^6.1.0",
+    "npx": "^10.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.0.1"
+  },
+  "scripts": {
+    "start": "http-server app -c-1"
+  }
+}
