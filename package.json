@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/QLN-SuperCamp/Payroll-Dates#readme",
   "dependencies": {
+    "confetti-js": "0.0.11",
     "npm": "^6.1.0",
     "npx": "^10.2.0"
   },
